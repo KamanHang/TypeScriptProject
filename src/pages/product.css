@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,100;1,900&family=Ubuntu:wght@500;700&display=swap');
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+}
+
+.category{
+  display: flex;
+  justify-content: center;
+}
+
+.cat-btn{
+  background-color: white;
+  color: black;
+  margin: 0.5rem;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.product-img{
+  display: flex;
+  justify-content: center;
+}
+
+.product-img img {
+  height: 40vh;
+  width: 65%;
+}
+
+
+
+.product-title h4 {
+  font-size: 18px;
+  font-weight: bold;
+  /* margin-bottom: 8px; */
+  color: black;
+}
+
+.product-desc h6{
+  font-size: 11px;
+  /* margin-bottom: 8px; */
+  color: black;
+  display: flex;
+  justify-content: center;
+
+}
+
+.product-price {
+  display: flex;
+  justify-content: center;
+}
+
+.product-price h6{
+  /* font-size: 24px; */
+  font-weight: bold;
+  color: #ff5722;
+}
+
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+.prod-btn{
+  margin: 0.5rem;
+}
+
+
+/* Loader css  */
+
+/* Loader Css */
